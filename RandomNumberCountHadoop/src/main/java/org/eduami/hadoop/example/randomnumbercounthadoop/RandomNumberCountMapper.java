@@ -7,6 +7,11 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
+/**
+ * Random number mapper
+ * @author padma.chopparapu@gmail.com or www.eduami.org
+ *
+ */
 public class RandomNumberCountMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 
 	@Override

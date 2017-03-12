@@ -6,6 +6,11 @@ import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
+/**
+ * Random number count reducer
+ * @author padma.chopparapu@gmail.com or www.eduami.org
+ *
+ */
 public class RandomNumberCountReducer extends Reducer<Text, IntWritable, Text, IntWritable> {
 
 	@Override

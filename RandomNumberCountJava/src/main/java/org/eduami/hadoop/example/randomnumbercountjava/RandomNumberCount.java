@@ -1,4 +1,4 @@
-package org.eduami.hadoop.dataset.randomnumbercountjava;
+package org.eduami.hadoop.example.randomnumbercountjava;
 
 import java.io.File;
 import java.io.FileNotFoundException;
